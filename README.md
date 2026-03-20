@@ -9,7 +9,7 @@
 
 通过使用 **Cloudflare Email Routing + Cloudflare Worker + KV** 方案，彻底解决了传统接码平台和自建邮箱繁琐的 IMAP 收信问题，实现极速提取验证码（OTP）。
 
-> 💡 **高阶玩法搭配**：本项目执行后批量提取的账号与 Token 文件，可**完美搭配 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 以及 [Sub2Api](https://github.com/router-for-me/CLIProxyAPI](https://github.com/Wei-Shaw/sub2api) 项目使用**！你可以将生成的 Token 池导入该项目，轻松实现多账号自动轮询、负载均衡以及高并发的 OpenAI API 代理分发服务。注意Sub2Api还需从Token文件中做一轮提取key的操作。
+> 💡 **高阶玩法搭配**：本项目执行后批量提取的账号与 Token 文件，可**完美搭配 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 以及 [Sub2Api](https://github.com/Wei-Shaw/sub2api) 项目使用**！你可以将生成的 Token 池导入该项目，轻松实现多账号自动轮询、负载均衡以及高并发的 OpenAI API 代理分发服务。注意Sub2Api还需从Token文件中做一轮提取key的操作。
 
 ## 💡 方案优势（为什么不用 IMAP）
 
