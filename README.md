@@ -180,6 +180,7 @@ python openai_register.py --once
 注册成功后，产生的账号和 `Token` 会存放在脚本目录内的 `tokens/` 文件夹下。
 - `tokens/accounts.txt` ：`邮箱----超强密码` 列表。
 - `tokens/token_*.json` ：用于调用 API 或登录的 OAuth 长 Token。
+- 根目录的 `tokens.md` ：自动汇总 `tokens/*.json` 里的 `refresh_token`。
 
 ---
 
